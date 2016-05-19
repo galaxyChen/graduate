@@ -1,0 +1,500 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(245,240,254);
+}
+
+#center_img
+{
+	/*max-height: 106px;
+	max-width: 106px;*/
+	height:106px;
+	width: 106px;
+	border-radius: 53px;
+	z-index: 1;
+	background-color: #F5F0FE;
+	position: relative;
+	top: 6px;
+	left: 6px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(105,170,135);
+}
+
+.main_img
+{
+	/*position: relative;
+	left: 18px;
+	top: 18px;*/
+	/*border-radius: 53px;*/
+	max-height: 106px;
+	max-width: 106px;
+	height:106px;
+	width: 106px;
+}
+
+.round_1
+{
+	width: 136px;
+	height: 136px;
+	border-radius: 68px;
+	/*background-color: rgb(203,219,218);*/
+	z-index: 3;
+}
+
+.round_2
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	position: relative;
+	top: 8px;
+	left: 8px;
+	/*background-color: rgb(175,205,194);*/
+	z-index: 2;
+}
+
+#center
+{
+	position: relative;
+	top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 136px;
+	height: 136px;
+	margin-top: -68px;
+	opacity: 0;
+}
+
+
+
+.item
+{
+	font-family: "Microsoft YaHei";
+	background-color: rgb(161,197,183);
+	position: relative;
+	top: 50%;
+	margin: 0 auto;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	opacity: 0;
+}
+
+.item_1
+{
+	width: 56px;
+	height: 56px;
+	border-radius: 28px;
+	margin-top: -100px;
+	line-height: 325%;
+}
+
+.item_2
+{
+	width: 72px;
+	height: 72px;
+	line-height: 400%;
+	border-radius: 36px;
+	margin-top: -60px;
+}
+
+.item_3
+{
+	width: 56px;
+	height: 56px;
+	line-height: 325%;
+	border-radius: 28px;
+	margin-top: -60px;
+}
+
+.item_4
+{
+	width: 64px;
+	height: 64px;
+	line-height: 350%;
+	border-radius: 32px;
+	margin-top: -60px;
+}
+
+.item_5
+{
+	width: 48px;
+	height: 48px;
+	line-height: 300%;
+	border-radius: 24px;
+	margin-top: -50px;
+	font-size: 16px;
+}
+
+.page_2
+{
+	overflow: hidden;
+	background-image: url('png/bg.png');
+	background-position: center 24px;
+	background-size: 240px 240px;
+	background-repeat: no-repeat;
+}
+
+#up_img
+{
+	width: 106px;
+	height: 106px;
+	border-radius: 53px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(105,170,135);
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 80px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.up_img
+{
+	position: relative;
+	top: 18px;
+	left: 18px;
+}
+
+.card
+{
+	width: 314px;
+	height:450px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	perspective: 800px;
+	opacity: 0;
+}
+
+
+.cards
+{
+	position: absolute;
+	bottom: 0;
+	width: 314px;
+	height: 300px;
+	margin: auto;
+	left: 0;
+	right: 0;
+
+}
+
+.activity
+{
+	width: 100%;
+	height: 450px;
+	border-radius: 20px;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	transform: rotateX(-30deg);
+	-webkit-transform: rotateX(-30deg);
+	margin: 0 auto;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.30);
+
+}
+
+.content
+{
+	width: 130px;
+	height: 50px;
+	position: relative;
+	left: 92px;
+	top: 12px;
+}
+
+.backbox
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	float: left;
+	height: 50px;
+}
+
+.in_img
+{
+	margin-right: 14px;
+	float: left;
+	max-width: 18px;
+	max-height: 18px;
+	height: 18px;
+	width: 18px;
+	margin-top: 6px;
+}
+
+.back
+{
+	float: right;
+	margin-right: 30px;
+	max-height: 18px;
+	max-width: 18px;
+	height: 18px;
+	width: 18px;
+	margin-top: 16px;
+}
+
+
+
+/*.img_2
+{
+	margin-left: 4px;
+	margin-right: 10px;
+}*/
+
+.title
+{
+	float: left;
+	font-size: 18px;
+	color: white;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	margin-top: 3px;
+}
+
+.c_1
+{
+	background-color: rgb(26,107,88);
+	z-index: 2;
+	background-image: url('png/marketbg.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.c_2
+{
+	background-color: rgb(29,128,99);
+	z-index: 3;
+		background-image: url('png/timebg.png');
+		background-position: bottom left;
+	background-repeat: no-repeat;
+
+}
+
+.c_3
+{
+	background-color: rgb(56,142,115);
+	z-index: 4;
+	background-image: url('png/wishbg.png');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.c_4
+{
+	background-color: rgb(105,170,136);
+	z-index: 5;
+		background-image: url('png/photobg.png');
+		background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.c_5
+{
+	background-color: rgb(132,184,161);
+	z-index: 6;
+	background-image: url('png/friendbg.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.c_6
+{
+	background-color: rgb(161,197,183);
+	z-index: 7;
+	background-image: url('png/graduatebg.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.a_1
+{
+	position: absolute;
+	top: 0;
+	
+}
+
+
+.a_2
+{
+	position: absolute;
+	top: 50px;
+}
+
+.a_3
+{
+	position: absolute;
+	top: 100px;
+
+}
+
+.a_4
+{
+	position: absolute;
+	top: 150px;
+
+}
+
+.a_5
+{
+	position: absolute;
+	top: 200px;
+
+}
+
+.a_6
+{
+	position: absolute;
+	top: 250px;
+
+}
+
+.text
+{
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	font-size: 16px;
+	color: white;
+	height: 16px;
+	font-family: "Microsoft YaHei";
+}
+
+.parea
+{
+	position: relative;
+	top: 24px;
+	/*margin: 0 auto;*/
+	left: 8px;
+	left: 
+	width: 266px;
+	height: 80px;
+	opacity: 0;
+}
+
+.parea_2
+{
+	top: 40px;
+}
+
+.parea_3
+{
+	top: 56px;
+}
+
+.b_out
+{
+	width: 86px;
+	height: 44px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 16px;
+	right: 24px;
+	opacity: 0;
+}
+
+.b_in
+{
+	width: 82px;
+	height: 40px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 50%;
+	margin-top: -20px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+#t_31
+{
+	height: 30px;
+}
+
+#t_33
+{
+	top: 70px;
+}
+
+.b_inp
+{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: white;
+	position: relative;
+	top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.sp
+{
+	margin-top: 26px;
+}
+
+.b_outl
+{
+	width: 100px;
+	height: 44px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 16px;
+	right: 24px;
+	opacity: 0;
+}
+
+.b_inl
+{
+	width: 96px;
+	height: 40px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 50%;
+	margin-top: -20px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+
+.next
+{
+	width: 44px;
+	height: 14px;
+	position: absolute;
+	bottom: 14px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.next_logo
+{
+	width: 44px;
+	height: 14px;
+}
